@@ -1,1 +1,108 @@
+#index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>Perfumy</h1>
+            <ul>
+                <li>Home|</li>
+                <li>Product|</li>
+                <li>About Us|</li>
+                <li>Contact Us|</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="searchbar">
+        <input placeholder="search">
+    </div>
+    <div class="product">
+        <div class="box">
+            <img src="https://source.unsplash.com/220x220/?perfume?1">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error, natus laboriosam officia itaque voluptatibus cupiditate! Repellat quaerat aperiam dolor.</p>
+        </div>
+        <div class="box">
+            <img src="https://source.unsplash.com/220x220/?perfume?2">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error, natus laboriosam officia itaque voluptatibus cupiditate! Repellat quaerat aperiam dolor.</p>
+        </div>
+        <div class="box">
+            <img src="https://source.unsplash.com/220x220/?perfume?3">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error, natus laboriosam officia itaque voluptatibus cupiditate! Repellat quaerat aperiam dolor.</p>
+        </div>
+    </div>
+    <div class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum quae impedit, adipisci nostrum dolor veritatis quas at commodi sed doloremque sit sequi reiciendis vel ipsum dolorem, labore quis nemo qui possimus consequatur, sint optio! Consectetur deleniti nihil rerum nemo, possimus, nobis maiores odio amet dicta dignissimos esse blanditiis optio molestias aperiam error, aliquid beatae laborum suscipit sunt? Velit nobis delectus perspiciatis vel molestias sit voluptate laborum laudantium officiis mollitia neque, fugit quasi qui porro unde laboriosam autem ipsam accusantium, voluptatem doloremque optio pariatur! Quam quas reprehenderit ut ad, voluptate iure unde libero, cupiditate, eius qui itaque vitae rerum magni.</p>
+    </div>
+    <div class="contact">
+        <h2>Contact</h2>
+        <h3>+91 7867565445</h3>
+        <h3>perfumy@gmail.com</h3>
+        <p style="margin-top: 30px;font-size: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid nam sit voluptatibus esse dolorem saepe quidem unde voluptatum blanditiis aperiam quos, pariatur placeat beatae? Deserunt laudantium ipsam consequuntur beatae incidunt vel voluptas, quos non, tempore repellendus laborum facere esse vero, tenetur minima aliquid dolorem repudiandae quae eos id assumenda iste fugit quasi exercitationem. Magni itaque eos illum, quisquam, eligendi ex asperiores aspernatur quod dolore, molestias optio voluptatibus tenetur alias rem soluta laboriosam accusantium nam. Ducimus ipsam atque inventore, accusantium expedita exercitationem illo error aliquid voluptates illum tempore mollitia officia, dicta fugit enim necessitatibus, veniam sed fuga iusto repudiandae itaque.</p>
+    </div>
+</body>
+</html>
+#style.css
+*{
+    margin: 0;
+    padding: 0;
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left: 60%;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    }
+    li{
+        color: grey;
+        cursor: pointer;
+    }
+    li:hover{
+        color: white;
+    }
+    input{
+        width: 75%;
+        padding: 10px;
+    }
+    .searchbar{
+        padding: 50px;
+        text-align: center;
+    }
+    .box{
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        display: inline-block;
+        width: 220px;
 
+    }
+    .product{
+        text-align: center;
+    }
+    .box:hover{
+        background-color: black;
+        color: white;
+    }
+    .about{
+        text-align: center;
+        margin-top: 20px;
+        padding: 50px;
+    }
+    .contact{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        padding: 50px;
+    }
